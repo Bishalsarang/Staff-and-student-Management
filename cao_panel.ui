@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Cao_panel</class>
+ <widget class="QMainWindow" name="Cao_panel">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1283</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Welcome to CAO Panel</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/new/images/icons/logoicon.ico</normaloff>:/new/images/icons/logoicon.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#centralwidget {background-image: url(:/new/images/Images/background_gradient_blue_02_jpg_max.jpg);
+}
+
+QPushButton#pushButton_exitstaff{
+    background-color: rgb(255, 0, 0);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: beige;
+    font: bold 14px;
+	color:white;
+    min-width: 10em;
+    padding: 6px;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="inst_name">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 127);
+font: 26pt &quot;Gill Sans Ultra Bold&quot;;
+qproperty-alignment: AlignCenter;</string>
+        </property>
+        <property name="text">
+         <string>                                     Institution Name </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_29">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 0);
+font: 22pt &quot;Gill Sans Ultra Bold&quot;;
+qproperty-alignment: AlignCenter;</string>
+        </property>
+        <property name="text">
+         <string>                                Welcome to CAO Panel</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QSplitter" name="splitter_16">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <widget class="QPushButton" name="pushButton_addstaff">
+         <property name="toolTip">
+          <string>Add staff</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-image: url(:/new/staff/Images/staff/images.jpg);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>20</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="autoDefault">
+          <bool>false</bool>
+         </property>
+         <property name="default">
+          <bool>true</bool>
+         </property>
+         <property name="flat">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_20">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+font: 10pt &quot;Gill Sans Ultra Bold&quot;;</string>
+         </property>
+         <property name="text">
+          <string>               Add Staff </string>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSplitter" name="splitter_20">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <widget class="QPushButton" name="pushButton_viewstaff">
+         <property name="acceptDrops">
+          <bool>false</bool>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-image: url(:/new/staff/Images/staff/icon-documentation.png);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_21">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+font: 10pt &quot;Gill Sans Ultra Bold&quot;;
+</string>
+         </property>
+         <property name="text">
+          <string>          View Staff Records</string>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSplitter" name="splitter_21">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <widget class="QPushButton" name="viewstafftable">
+         <property name="styleSheet">
+          <string notr="true">border-image: url(:/new/staff/Images/staff/Table Search.jpg);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_22">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+font: 10pt &quot;Gill Sans Ultra Bold&quot;;</string>
+         </property>
+         <property name="text">
+          <string>      View Staff(Table)</string>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSplitter" name="splitter_22">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <widget class="QPushButton" name="pushButton_modifystaff">
+         <property name="styleSheet">
+          <string notr="true">border-image: url(:/new/staff/Images/staff/photo_edit.png);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_23">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+font: 10pt &quot;Gill Sans Ultra Bold&quot;;</string>
+         </property>
+         <property name="text">
+          <string>       Modify Staff Records</string>
+         </property>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QSplitter" name="splitter">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <widget class="QPushButton" name="pushButton_deletestaff">
+         <property name="styleSheet">
+          <string notr="true">border-image: url(:/new/staff/Images/staff/businessman_delete.png);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_24">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+font: 10pt &quot;Gill Sans Ultra Bold&quot;;</string>
+         </property>
+         <property name="text">
+          <string>       Delete Staff Records</string>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSplitter" name="splitter_2">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <widget class="QPushButton" name="pushButton_changepasswordstaff">
+         <property name="styleSheet">
+          <string notr="true">border-image: url(:/new/staff/Images/staff/Aha-Soft-Security-Modify-key.ico);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_26">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+font: 10pt &quot;Gill Sans Ultra Bold&quot;;
+</string>
+         </property>
+         <property name="text">
+          <string>          Change Password</string>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSplitter" name="splitter_3">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <widget class="QPushButton" name="pushButton_19">
+         <property name="styleSheet">
+          <string notr="true">border-image: url(:/new/staff/Images/staff/images.png);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_27">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+font: 10pt &quot;Gill Sans Ultra Bold&quot;;
+</string>
+         </property>
+         <property name="text">
+          <string>                About Us</string>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSplitter" name="splitter_4">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <widget class="QPushButton" name="pushButton_exitstaff">
+         <property name="styleSheet">
+          <string notr="true">border-image: url(:/new/staff/Images/staff/download.jpg);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_25">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+font: 10pt &quot;Gill Sans Ultra Bold&quot;;</string>
+         </property>
+         <property name="text">
+          <string>                  Exit</string>
+         </property>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
