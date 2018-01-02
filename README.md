@@ -1,16 +1,17 @@
 # Staff-and-student-Management
-2nd Semester Project
-Members:
+<strong>2nd Semester Project </strong>
+<br>
+Members: <br>
 Aayush Malla <br>
-Bipesh Subedi
-Bipin Bohora
-Junth Basnet
-Bishal Sarangkoti
+Bipesh Subedi  <br>
+Bipin Bohora  <br>
+Junth Basnet  <br>
+Bishal Sarangkoti <br><hr>
 
 
-Tools uSed:
-Qt 5.8.0 mingw compiler
-SQLite for database
+<strong>Tools uSed: </strong>
+Qt 5.8.0 mingw compiler <br>
+SQLite for database <br>
 
 Building Executable:
 1. Open QT console
