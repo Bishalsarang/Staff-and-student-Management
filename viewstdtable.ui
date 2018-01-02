@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>viewstdtable</class>
+ <widget class="QMainWindow" name="viewstdtable">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1245</width>
+    <height>879</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/new/images/icons/logoicon.ico</normaloff>:/new/images/icons/logoicon.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#centralwidget {
+background-image: url(:/new/images/Images/a72082c00f056ac229e10ffcbdac9059.jpg);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QSplitter" name="splitter_3">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QSplitter" name="splitter_2">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <widget class="QSplitter" name="splitter">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <widget class="QWidget" name="layoutWidget_5">
+         <layout class="QHBoxLayout" name="horizontalLayout_10">
+          <item>
+           <widget class="QLineEdit" name="searchBox">
+            <property name="styleSheet">
+             <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_19">
+            <property name="toolTip">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Sort List&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+            </property>
+            <property name="text">
+             <string>Search By:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="sortBy">
+            <property name="styleSheet">
+             <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+            </property>
+            <item>
+             <property name="text">
+              <string>firstname</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>registration_number</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>course</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>enrolledYear</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>lastname</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>GPA</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>email</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QPushButton" name="Search">
+         <property name="text">
+          <string>Search</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../Danleech-Simple-Google.ico</normaloff>../Danleech-Simple-Google.ico</iconset>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QPushButton" name="Back">
+        <property name="text">
+         <string>Back to Staff Panel</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="verticalLayoutWidget">
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QTableWidget" name="tableWidget">
+          <column>
+           <property name="text">
+            <string>dbid</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>registration_number</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>firstname</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>midname</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>lastname</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>perm_address</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>temp_address</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>sex</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Enrolled_Year</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Course</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Phone</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Email</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Father's Name</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Mother's Name</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Guardian's Name</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

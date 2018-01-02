@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>viewstftable</class>
+ <widget class="QMainWindow" name="viewstftable">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1325</width>
+    <height>811</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/new/images/icons/logoicon.ico</normaloff>:/new/images/icons/logoicon.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#centralwidget {
+background-image: url(:/new/images/Images/cao_bg.jpeg);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_10">
+          <item>
+           <widget class="QLineEdit" name="searchBox">
+            <property name="styleSheet">
+             <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_19">
+            <property name="toolTip">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Sort List&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+            </property>
+            <property name="text">
+             <string>Search BY:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="sortBy">
+            <property name="styleSheet">
+             <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+            </property>
+            <item>
+             <property name="text">
+              <string>firstname</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>lastname</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>email</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>position</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>phone</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QPushButton" name="Search">
+          <property name="text">
+           <string>Search</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>../Danleech-Simple-Google.ico</normaloff>../Danleech-Simple-Google.ico</iconset>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="Back">
+        <property name="text">
+         <string>Back to CAO Pnale</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QTableWidget" name="tableWidget">
+        <column>
+         <property name="text">
+          <string>dbid</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>firstname</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>midname</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>lastname</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>perm_address</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>temp_address</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>sex</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Email</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Phone</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Position</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Salary</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Qualification1</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Qualification2</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Qualification3</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Qualification4</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Qualification5</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Description</string>
+         </property>
+        </column>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
