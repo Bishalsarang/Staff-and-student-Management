@@ -1,7 +1,7 @@
 # Staff-and-student-Management
 2nd Semester Project
 Members:
-Aayush Malla
+Aayush Malla <br>
 Bipesh Subedi
 Bipin Bohora
 Junth Basnet
