@@ -1,0 +1,59 @@
+<RCC>
+    <qresource prefix="/new/images">
+        <file>Images/1730959.jpg</file>
+        <file>Images/user1.png</file>
+        <file>Images/back_g.jpg</file>
+        <file>Images/background_gradient_blue_02_jpg_max.jpg</file>
+        <file>Images/green_minimalistic_background_by_77matt77.jpg</file>
+        <file>Images/cao_bg.jpeg</file>
+        <file>Images/back.jpg</file>
+        <file>Images/Staff.png</file>
+        <file>Images/VxIW82.jpg</file>
+        <file>Images/login_bg.jpg</file>
+        <file>Images/vista-wallpapers-wallpaper-blue-backround-system-background-software-operating.jpg</file>
+        <file>Images/images1.jpg</file>
+        <file>Images/1 (1).jpg</file>
+        <file>Images/24-6.jpg</file>
+        <file>Images/15.jpg</file>
+        <file>Images/1.jpg</file>
+        <file>Images/vanilla-background-blue.jpg</file>
+        <file>Images/a72082c00f056ac229e10ffcbdac9059.jpg</file>
+        <file>Images/images (2).jpg</file>
+        <file>Images/welcomestaff.JPG</file>
+        <file>Images/Bishal.jpg</file>
+        <file>Images/junth.jpg</file>
+        <file>Images/bipesh.jpg</file>
+        <file>Images/bipin.jpg</file>
+        <file>icons/add.png</file>
+        <file>icons/delete.png</file>
+        <file>icons/search_user.ico</file>
+        <file>icons/table.png</file>
+        <file>icons/view.png</file>
+        <file>icons/change_password.ico</file>
+        <file>icons/exit.png</file>
+        <file>icons/modify.ico</file>
+        <file>Images/19875458_1414128765339757_8055038245978382240_n.jpg</file>
+        <file>Images/logo.jpg</file>
+        <file>Images/welcome_admin.JPG</file>
+        <file>Images/welcome.jpg</file>
+        <file>icons/logoicon.ico</file>
+        <file>Images/wall.jpg</file>
+        <file>Images/about_us.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>img/na.jpg</file>
+        <file>Images/add.png</file>
+        <file>Images/welcome_admin.JPG</file>
+    </qresource>
+    <qresource prefix="/new/staff">
+        <file>Images/staff/images.jpg</file>
+        <file>Images/staff/photo_edit.png</file>
+        <file>Images/staff/icon-documentation.png</file>
+        <file>Images/staff/businessman_delete.png</file>
+        <file>Images/staff/Aha-Soft-Security-Modify-key.ico</file>
+        <file>Images/staff/download.jpg</file>
+        <file>Images/staff/Table Search.jpg</file>
+        <file>Images/staff/26249365-About-us-button-our-business-or-working-team-members-icon-Stock-Photo.jpg</file>
+        <file>Images/staff/images.png</file>
+    </qresource>
+</RCC>
